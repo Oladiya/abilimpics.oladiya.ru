@@ -1,0 +1,51 @@
+.logo {
+    position: relative;
+    overflow: hidden;
+    width: 108px;
+    height: 44px;
+}
+
+.logo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 136px;
+    height: 44px;
+    object-fit: cover;
+}
+
+/*.logo-svg {
+    background-color: #0a58ca;
+    background-image: url(http://abilimpics.loc/assets/img/logoza.svg);
+    width: 500px;
+    height: 300px;
+}*/
+
+.my-nav {
+    background-color: rgb(242, 248, 234)!important;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+#app {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    flex: 0 0 auto;
+}
+
+main {
+    flex: 1 0 auto;
+}
